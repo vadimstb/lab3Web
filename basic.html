@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Layout</title>
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="3" class="box1">
+                <div class="inner-box boxX">x</div>
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="./index.html">Main</a></li>
+                        <li><a href="./basic.html">Basic</a></li>
+                        <li><a href="./flex.html">Flex</a></li>
+                        <li><a href="./grid.html">Grid</a></li>
+                        <li><a href="./gmail.html">Gmail</a></li>
+                    </ul>
+                </nav>
+            </td>
+        </tr>
+        <tr>
+            <td class="left box2">
+                <p>This is a sidebar section for navigation or extra info.</p>
+            </td>
+            <td rowspan="2" class="center box3">
+                <div class="image-container">
+                    <img src="./images/3.jpg" alt="Example Image" usemap="#image-map">
+                    <map name="image-map">
+                        <area shape="rect" coords="0,0,1000,1000" href="https://www.youtube.com/watch?v=oHg5SJYRHA0" alt="Full Image Link" title="Click for more details">
+                    </map>
+                </div>
+            </td>
+            <td rowspan="3" class="right box4">
+                <p>Right sidebar content or additional details.</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="left box5">
+                <p>Placeholder for extra contextual content or a menu.</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="box6">
+                <p>Footer area or additional information goes here.</p>
+                <div class="inner-box boxY">y</div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
