@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+ul 
+{
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100vh;
+}
+
+td {
+    border: 1px solid #000;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.left,
+.right {
+    width: 15%;
+    background-color: #ffe4c4;
+}
+
+.center {
+    width: 70%;
+}
+
+.box1 {
+    background-color: #add8e6;
+    height: 25%;
+    position: relative;
+}
+
+.box2 {
+    background-color: #ffe4c4;
+    height: 25%;
+}
+
+.box3 {
+    background-color: #fff;
+    height: 50%;
+}
+
+.box4 {
+    background-color: #ffe4c4;
+}
+
+.box5 {
+    background-color: #d3f4d3;
+    height: 25%;
+}
+
+.box6 {
+    background-color: #add8e6;
+    height: 25%;
+    position: relative;
+}
+
+.inner-box {
+    display: inline-block;
+    padding: 0.5rem;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-size: 1rem;
+}
+
+.boxX {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.boxY {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.image-container {
+    position: relative;
+    width: 40%;
+    height: 40%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+area {
+    cursor: pointer;
+}
